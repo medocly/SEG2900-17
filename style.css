@@ -8,6 +8,10 @@ body, html {
 
 }
 
+.footer{
+  margin-bottom: 8px;
+}
+
 .title{
   font-family: "Raleway", serif;
   animation-name: intro;
