@@ -30,6 +30,18 @@ body, html {
   background-size: cover;
 }
 
+.parallax2 {
+
+  background-image: url("pics/test.jpg");
+
+  height: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .column{
   float: left;
   width: 18%;
