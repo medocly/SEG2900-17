@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html style="scroll-behavior:smooth">
 <head>
 
   <link rel="stylesheet" href="style.css">
@@ -9,40 +9,46 @@
 
 </head>
 
+
+
 <body>
 
   <!-- NAVIGATION BAR -->
-  <ul>
-    <li><a class="active">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="about.html">Features</a></li>
-    <li><a href="about.html">Pricing</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-
+  <ul style="position: fixed; width:100%; z-index:1">
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    
   <!-- HOME SCREEN -->
-  <div class="parallax">
-    <h1 align="center" style="position: relative; top: 40%;">Medocly</h1>
+  <div id="home"class="parallax" style="padding-left: 3%; padding-right:3%">
+    <div style="height: 100%; width: 100%; background-color: whitesmoke; opacity: .7;">
+    </div>
+    <h1 align="center" style="position: absolute; top: 40%; left: 45%; opacity: 2;">Medocly</h1>
   </div>
 
-  <!-- ABOUT -->
-  <div>
-    <p>description of product and</p>
-  </div>
+  
 
   <!-- ABOUT -->
-  <div class="parallax2">
-
+  <div id="about" class="parallax2">
+      <h1>description of product and</h>
   </div>
 
   <!-- FEATURES -->
-  <div>
-    <p>description of features</p>
+  <div id="features" class="parallax">
+    <h1>description of features</h1>
+  </div>
+
+  <!-- PRICING -->
+  <div id="pricing" class="parallax">
+      <h1>Pricing of product</h1>
   </div>
 
   <!-- CONTACT -->
-  <div class="parallax">
-
+  <div id="contact" class="parallax">
+    <h1>Contact</h1>
   </div>
 
   <!-- MEET THE TEAM-->
@@ -105,7 +111,7 @@
   </div>
 
   <footer>
-    <p>put footer info down here</p>
+    <p>Medocly | Copyright 2019</p>
   </footer>
 
   <script src="main.js"></script>

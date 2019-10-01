@@ -28,6 +28,7 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 3%
 }
 
 .parallax2 {
@@ -126,6 +127,6 @@ footer{
   background-color: #333;
   color: white;
   font-family: "Raleway", serif;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
