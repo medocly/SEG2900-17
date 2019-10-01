@@ -2,14 +2,20 @@ Medocly
 
 Team: 17
 
-Team Member Names:
+Team Members:
 
-Florian Koudjonou -
-Jasmine Kokkat -300115249
-Nabiil Wahbi -
-Sam Sunny -
-Victor Chen -
+Florian Koudjonou - 300104568
+Jasmine Kokkat - 300115249
+Nabil Wahbi - 300144558
+Sam Sunny - 300141037
+Victor Chen - 300116813
 
 Product Name: Medocly
 
-Description: An application which allows user to order prescriptions and have them delivered and help diagnose their disease based on symptoms
+Description:
+
+Medocly is an app and sensor product, where users can 
+take accurate measurements of vitals and a computer algorithm 
+will calculate and give a diagnosis based on the symptoms.
+Users can then order their required medication and have it
+delivered to their doorstep for a fee.
