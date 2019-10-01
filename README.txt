@@ -1,6 +1,6 @@
-Insert Product Name here
+Medocly
 
-Team Name: 17(for now)
+Team: 17
 
 Team Member Names:
 
@@ -10,6 +10,6 @@ Nabiil Wahbi -
 Sam Sunny -
 Victor Chen -
 
-Product Name:
+Product Name: Medocly
 
 Description:
