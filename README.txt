@@ -18,4 +18,4 @@ Medocly is an app and sensor product, where users can
 take accurate measurements of vitals and a computer algorithm 
 will calculate and give a diagnosis based on the symptoms.
 Users can then order their required medication and have it
-delivered to their doorstep for a fee.
+delivered to their doorstep for a fee. Test
