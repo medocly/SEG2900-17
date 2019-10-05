@@ -1,4 +1,4 @@
-Medocly
+Organization name: Medocly
 
 Organization link: https://github.com/medocly
 Github repo link: https://github.com/medocly/SEG2900-17/
