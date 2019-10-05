@@ -1,8 +1,9 @@
 Medocly
 
-Github repo link: https://github.com/medocly/SEG2900-17/
 Organization link: https://github.com/medocly
+Github repo link: https://github.com/medocly/SEG2900-17/
 Website link: https://medocly.github.io/SEG2900-17/
+README link: https://medocly.github.io/SEG2900-17/README.txt
 
 Team: 17
 
