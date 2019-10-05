@@ -8,10 +8,10 @@ Team: 17
 Team Members:
 
 Florian Koudjonou - TheRealYoze - 300104568
-Jasmine Kokkat - 300115249
+Jasmine Kokkat - JasmineKokkat - 300115249
 Nabil Wahbi - 300144558
-Sam Sunny - 300141037
-Victor Chen - 300116813
+Sam Sunny - SamSunny95 - 300141037
+Victor Chen - victorchen01 - 300116813
 
 Product Name: Medocly
 
