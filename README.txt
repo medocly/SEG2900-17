@@ -1,17 +1,18 @@
 Medocly
 
 Github repo link: https://github.com/medocly/SEG2900-17/
+Organization link: https://github.com/medocly
 Website link: https://medocly.github.io/SEG2900-17/
 
 Team: 17
 
 Team Members:
 
-Florian Koudjonou - TheRealYoze - 300104568
-Jasmine Kokkat - JasmineKokkat - 300115249
-Nabil Wahbi - 300144558
-Sam Sunny - SamSunny95 - 300141037
-Victor Chen - victorchen01 - 300116813
+Florian Koudjonou - 300104568 - |TheRealYoze|
+Jasmine Kokkat - 300115249 - |JasmineKokkat|
+Nabil Wahbi - 300144558 - |nwahbi|
+Sam Sunny - 300141037 - |SamSunny95|
+Victor Chen - 300116813 - |victorchen01|
 
 Product Name: Medocly
 
