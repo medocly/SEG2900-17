@@ -130,3 +130,10 @@ footer{
   padding-top: 5px;
   padding-bottom: 5px;
 }
+
+/* Style for the About page */
+
+#about-title{
+  font-size: 40px;
+  color: blue;
+}
