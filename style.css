@@ -133,51 +133,71 @@ footer{
   padding-bottom: 5px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 /* Style for the ABOUT PAGE */
 
-#about-title{
-  text-align: center;
-  font-size: 50px;
-  color: blue;
-  position: relative;
-  top: -2%;
-  
+
+
+div{
+  margin: 0;
 }
 
-.explanation{
-  width: 70%;
-  padding-left: 2%;
-  font-family: Vernada;
-  font-size: 125%
+.about{
+  border: 0px;
+  padding: 0px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Raleway", serif;
+}
+
+.about-title{
+  text-align: center;
+  color: blue;
+  font-size: 2em;
+  background-color: teal;
+}
+
+.content-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-color: white;
+  border: solid;
+}
+
+.text{
+  background-color: red;
+  text-align: justify;
+  border: solid;
+  padding: 2%;
 }
 
 .quote{
-  font-size: 150%;
-  color: rgba(0, 0, 250, 0.6);
-  font-family: "Merriweather";
   text-align: center;
+  padding: 7%;
+  font-size: 1.8em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.quote-left{
-  float: left;
-  width: 30%;
+p.star{
+  color: yellow;
+  font-size: 2em;
+  margin: 0;
 }
 
-.quote-right{
-  float: right;
-  width: 30%;
-}
-
-.star{
-  color: red;
-  font-size: 150%;
-}
-.star-left{
-  float: left;
-  text-align: left;
-}
-
-.star-right{
-  float: right;
-  text-align: right;
+.image{
+  background-color: blue;
+  text-align: center;
+  border: solid;
 }
