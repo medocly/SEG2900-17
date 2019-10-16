@@ -130,30 +130,3 @@ footer{
   padding-top: 5px;
   padding-bottom: 5px;
 }
-
-@keyframes slideInFromLeft {
-  0% {
-    transform: translateX(-100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-#Title {
-  animation: 1s slideInFromLeft;
-  font-size: 5vw
-}
-@keyframes fadeIn{
-  0%{
-    opacity: 0;
-  }
-  100%{
-    opacity: 1;
-  }
-}
-#navbar{
-  animation: 1s fadeIn;
-}
