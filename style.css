@@ -33,7 +33,7 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 3%
+  padding: 3%;
 }
 
 .parallax2 {
@@ -144,8 +144,40 @@ footer{
   
 }
 
+.explanation{
+  width: 70%;
+  padding-left: 2%;
+  font-family: Vernada;
+  font-size: 125%
+}
+
 .quote{
-  font-size: 40px;
+  font-size: 150%;
   color: rgba(0, 0, 250, 0.6);
   font-family: "Merriweather";
+  text-align: center;
+}
+
+.quote-left{
+  float: left;
+  width: 30%;
+}
+
+.quote-right{
+  float: right;
+  width: 30%;
+}
+
+.star{
+  color: red;
+  font-size: 150%;
+}
+.star-left{
+  float: left;
+  text-align: left;
+}
+
+.star-right{
+  float: right;
+  text-align: right;
 }
