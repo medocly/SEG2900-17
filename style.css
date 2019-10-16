@@ -188,10 +188,9 @@ footer{
   text-align: center;
   padding: 7%;
   font-size: 1.8em;
-  font-family: monospace;
 }
 
-p.star{
+.star{
   color: yellow;
   font-size: 2em;
   margin: 0;
