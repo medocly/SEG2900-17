@@ -1,10 +1,19 @@
-body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body{
+  font-family: "Raleway", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+  padding: 0;
+  border: 0;;
+}
 
 
 
 
 body, html {
   height: 100%;
+  margin: 0px;
 }
 
 @keyframes intro {
@@ -33,7 +42,6 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 3%;
 }
 
 .parallax2 {
@@ -148,56 +156,49 @@ footer{
 
 
 
-div{
-  margin: 0;
-}
-
 .about{
   border: 0px;
   padding: 0px;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: "Raleway", serif;
+  margin: 1%;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .about-title{
   text-align: center;
   color: blue;
-  font-size: 2em;
-  background-color: teal;
+  font-size: 2vw;
 }
 
 .content-wrapper{
   display: grid;
   grid-template-columns: 1fr 1fr;
   border-color: white;
-  border: solid;
 }
 
 .text{
-  background-color: red;
   text-align: justify;
-  border: solid;
-  padding: 2%;
+  font-size: 1.5vw;
+  padding: 0 3% 3% 3%;
 }
 
 .quote{
   text-align: center;
   padding: 7%;
-  font-size: 1.8em;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2vw;
 }
 
-p.star{
+.star{
   color: yellow;
-  font-size: 2em;
-  margin: 0;
+  font-size: 3vw;
+  display: flex;
+  justify-content: center;
+  margin-left: 2vw;
+  margin-right: 2vw;
 }
 
-.image{
-  background-color: blue;
-  text-align: center;
-  border: solid;
+
+#award{
+  width: auto;
+  height: 5vw;
+  padding: 0 1vw 0 1vw;
 }

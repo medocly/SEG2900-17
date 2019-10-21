@@ -1,0 +1,39 @@
+Overall Look and Feel Medocly
+=============================
+
+Since Medocly is a medical company, we want our website to be calming. We want our users to feel confident. We want them to feel like they can trust the website. We are going to accomplish that by making your website look as genuine and professional as possible.
+We are also going to avoid really big animations and visual effects to make sure the website keeps its professional look.
+
+
+Colours
+========
+
+For Medocly, a medical company, we want our colors to express calm and security. Therefore, we decided to go colors approaching these:
+
+- 
+
+
+Iconography
+===========
+
+We will use icons that are mostly flat, to stay in the theme of the website. However, we will give them a rounded look, which makes them more calming and pleasing to the eye.
+
+
+Typography
+==========
+
+For the main font, we will use the 'Raleway' font from Google Fonts.
+(https://fonts.googleapis.com/css?family=Raleway)
+
+
+Links
+=====
+
+Links will not be underlined and should change color when a user hovers over it.
+
+
+Buttons
+=======
+
+Buttons will keep the flat look of our icons and will use the ########## color mentioned above.
+Also, when a user will hover over one, shadows will appear around it to differentiate it from non clickable icons.
