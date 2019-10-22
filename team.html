@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <head>
-  <title>Team17</title>
+  <style>
+    div, table{
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+    table{
+      margin-left:auto;
+      margin-right:auto;
+      width: 80%;
+    }
+    
+  </style>
+    <link rel="stylesheet" href="style.css">
+    <title>Team</title>
 </head>
 
-<body style="text-align: center;">
+<body style="text-align: center; height: 95%; margin: 1%;">
+ 
   <h2 style="text-align: left;">Meet the Team</h2>
   
-    <table style="width: 80%; margin: auto;">
+  <table>
       <tr>
         <td>
           <img src="pics/proPic.png" style="width: 70%;" alt="">
@@ -35,22 +49,23 @@
       <form action="">
           <p>
             <label for="name">Name:</label>
+            <br>
             <input type="text" name="Name" id="Name" width="400px">
           </p>
           <p>
-            <label for="Email">Name:</label>
+            <label for="Email">Email:</label>
+            <br>
             <input type="text" name="Email" id="Email" width="400px">
           </p>
           <p>
-            <label for="Message">Name:</label>
-            <textarea name="Message" id="Message" style="width: 167px;"></textarea>
+            <label for="Message">Message:</label>
+            <br>
+            <textarea name="Message" id="Message" cols="40" rows="5"></textarea>
           </p>
           <p>
             <button>Submit</button>
           </p>
       </form>
     </div>
-
-  
   
 </body>
