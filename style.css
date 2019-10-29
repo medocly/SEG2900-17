@@ -28,7 +28,8 @@ body, html {
 }
 
 #title{
-  animation: intro 1s ease-in-out
+  animation: intro 1s ease-in-out;
+  animation-delay: 100ms;
 }
 
 @keyframes intro {
@@ -36,6 +37,36 @@ body, html {
   opacity: 0;}
   to {left: 45%;
   opacity: 1;}
+}
+
+#navbar{
+  animation: navSlide 1s ease-in-out;
+  animation-delay: 100ms;
+}
+
+@keyframes navSlide{
+  from{
+    transform: translateY(-40px);
+    opacity: 0;
+  }
+  to{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+#fadedDiv{
+  animation: fadeIn 1s ease-in-out;
+  animation-delay: 100ms;
+}
+
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: .7;
+  }
 }
 
 
@@ -228,7 +259,7 @@ footer{
   top: 0px;
   bottom: 0px;
   margin: auto;
-  animation: round 2s linear infinite;
+  animation: round 1s linear infinite;
   z-index: 1000;
 }
   /* animation */
