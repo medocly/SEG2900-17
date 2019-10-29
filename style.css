@@ -219,44 +219,32 @@ footer{
   background-color: rgba(255, 255, 255, 0.5);
 }
 
+
 .about-title{
   text-align: center;
   color: blue;
-  font-size: 2vw;
-}
-
-.content-wrapper{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  border-color: white;
+  font-size: 20px;
 }
 
 .text{
   text-align: justify;
-  font-size: 1.5vw;
-  padding: 0 3% 3% 3%;
+  font-size: 20px;
 }
 
 .quote{
   text-align: center;
-  padding: 7%;
-  font-size: 2vw;
+  font-size: 30px;
 }
 
 .star{
   color: yellow;
-  font-size: 3vw;
-  display: flex;
-  justify-content: center;
-  margin-left: 2vw;
-  margin-right: 2vw;
+  font-size: 20px;
 }
 
 
 #award{
   width: auto;
-  height: 5vw;
-  padding: 0 1vw 0 1vw;
+  height: 30px;
 }
 
 
