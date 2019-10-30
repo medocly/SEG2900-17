@@ -34,9 +34,9 @@ body, html {
 }
 
 @keyframes intro {
-  from {left:50%;
+  from {left:5%;
   opacity: 0;}
-  to {left: 45%;
+  to {left: 0%;
   opacity: 1;}
 }
 
