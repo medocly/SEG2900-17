@@ -2,10 +2,18 @@ body{
   font-family: "Raleway", sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
 h1,h2,h3,h4,h5,h6,p{
   margin: 0;
   padding: 0;
-  border: 0;;
+  border: 0;
 }
 
 h2{
@@ -19,7 +27,14 @@ body, html {
   margin: 0px;
 }
 
+.nav{
+  padding: 10px;
+  transition:200ms
+}
 
+.nav:hover{
+  font-size: 30px;
+}
 
 .footer{
   margin-bottom: 8px;
@@ -171,7 +186,7 @@ ul {
 }
 
 li {
-  float: left;
+ float: left;
 }
 
 li a {
@@ -224,13 +239,14 @@ footer{
 
 .about-title{
   text-align: center;
-  color: blue;
-  font-size: 20px;
+  color: red;
+  font-size: 400%;
+  padding: 1%;
 }
 
 .text{
   text-align: justify;
-  font-size: 20px;
+  font-size: 1em;
 }
 
 .quote{
@@ -240,13 +256,15 @@ footer{
 
 .star{
   color: yellow;
-  font-size: 20px;
+  font-size: 120%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 
 #award{
-  width: auto;
-  height: 30px;
+  width: 20%;
+  height: 20%;
 }
 
 
