@@ -30,6 +30,13 @@ body, html {
   margin: 0px;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 33%;
+}
+
 .nav{
   padding: 10px;
   transition:200ms;
