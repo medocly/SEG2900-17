@@ -10,6 +10,10 @@ html, body {
   overflow-x: hidden;
 }
 
+h1, h2{
+  font-family: Inter,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
 h1,h2,h3,h4,h5,h6,p{
   margin: 0;
   padding: 0;
@@ -17,7 +21,6 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 h2{
-
   font-size: 500%;
 }
 
@@ -29,7 +32,8 @@ body, html {
 
 .nav{
   padding: 10px;
-  transition:200ms
+  transition:200ms;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .nav:hover{
@@ -212,6 +216,7 @@ footer{
   font-family: "Raleway", serif;
   padding-top: 5px;
   padding-bottom: 5px;
+  text-align: center;
 }
 
 
@@ -239,19 +244,23 @@ footer{
 
 .about-title{
   text-align: center;
-  color: red;
-  font-size: 400%;
-  padding: 1%;
+  color: blue;
+  font-size: 300px;
+  padding: 3%;
 }
 
 .text{
   text-align: justify;
-  font-size: 1em;
+  font-size: 20px;
 }
 
 .quote{
   text-align: center;
-  font-size: 30px;
+  font-size: 50px;
+  line-height: 55px;
+  font-family: 'Teko', sans-serif;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .star{
