@@ -323,3 +323,7 @@ footer{
   .container {
     padding: 2px 16px;
   }
+
+  .features {
+    color: white;
+  }
