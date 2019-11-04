@@ -30,6 +30,13 @@ body, html {
   margin: 0px;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 33%;
+}
+
 .nav{
   padding: 10px;
   transition:200ms;
@@ -333,6 +340,19 @@ footer{
     padding: 2px 16px;
   }
 
+    body::-webkit-scrollbar{
+      width: .5vw;
+    }
+    body::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .1);
+  }
+   
+    body::-webkit-scrollbar-thumb {
+      background-color: #3399ff88;
+      outline: 1px solid slategrey;
+      border-radius: 10px;
+    }
+  
   .features {
     color: white;
   }
