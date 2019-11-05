@@ -28,6 +28,7 @@ h2{
 body, html {
   height: 100%;
   margin: 0px;
+  font-weight: bold;
 }
 
 .center {
