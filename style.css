@@ -28,6 +28,7 @@ h2{
 body, html {
   height: 100%;
   margin: 0px;
+  font-size: 120%;
   font-weight: bold;
 }
 
@@ -46,6 +47,7 @@ body, html {
 
 .nav:hover{
   font-size: 30px;
+  text-decoration: none;
 }
 
 .footer{
@@ -370,8 +372,6 @@ footer{
     box-sizing: inherit;
   }
   body{
-    background-color: rgb(2, 10, 0);
-    background-repeat: no-repeat;
     @include filter-gradient(#53455b, #201e22, horizontal);
     @include background-image(radial-gradient(circle at top,  rgba(83,69,91,1) 0,rgba(32,30,34,1) 70%));
     color: #fff;
@@ -506,7 +506,7 @@ footer{
     left: 50%;
     margin-left: -60px;
     text-decoration: none;
-    width: 120px;
+    width: auto;
   }
   .uppercase, .button, h2 {
     text-transform: uppercase;
