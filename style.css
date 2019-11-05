@@ -249,6 +249,7 @@ footer{
   padding: 0px;
   margin: 1%;
   background-color: rgba(255, 255, 255, 0.5);
+  color: black;
 }
 
 
@@ -271,6 +272,11 @@ footer{
   font-family: 'Teko', sans-serif;
   padding-top: 5%;
   padding-bottom: 5%;
+}
+
+.quote p{
+  margin-bottom: 1%;
+  margin-top: 1%;
 }
 
 .star{
