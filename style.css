@@ -256,7 +256,6 @@ footer{
 .about-title{
   text-align: center;
   color: blue;
-  font-size: 300px;
   padding: 3%;
 }
 
@@ -362,10 +361,22 @@ footer{
       border-radius: 10px;
     }
   
-  .features {
-    color: white;
-    padding-top: 2%;
-  }
+.features {
+  color: white;
+  padding-bottom: 3%;
+}
+
+.features-title{
+  text-align: center;
+  padding: 3%;
+}
+
+.princing-title{
+  color: blue;
+  text-align: center;
+  padding: 3%;
+}
+
   @import "compass/css3";
 
   @import "compass/css3";
