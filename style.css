@@ -369,7 +369,7 @@ footer{
     box-sizing: inherit;
   }
   body{
-    background-color: rgb(33,31,35);
+    background-color: rgb(2, 10, 0);
     background-repeat: no-repeat;
     @include filter-gradient(#53455b, #201e22, horizontal);
     @include background-image(radial-gradient(circle at top,  rgba(83,69,91,1) 0,rgba(32,30,34,1) 70%));
@@ -378,7 +378,6 @@ footer{
     font-size: 100%;
     min-height: 100%;
     line-height: 1.5;
-    padding: 2.5em 0;
   }
   .container {
     margin: 0 auto;
@@ -391,12 +390,13 @@ footer{
     clear: both;
   }
   .grid-1-5 {
-    border: 2px solid #5d4e65;   
+    border: 2px solid rgb(5, 153, 0);   
     min-height: 400px;
     padding: 1.25em;
     position: relative;
     text-align: center;
     transition: all .2s ease-in-out;
+    margin: 2%;
     
     @media screen and (min-width: 700px) {
       & {
@@ -431,12 +431,12 @@ footer{
     
   }
   .grid-1-5:hover {
-    background-color: rgb(83,69,91);
+    background-color: rgb(41, 175, 0);
     @include filter-gradient(#53455b, #201d22, vertical);
     @include background-image(linear-gradient(top,  rgba(83,69,91,1) 0%,rgba(32,29,34,1) 100%));  
-    border-top: 2px solid #ec7a37;
-    border-bottom: 2px solid #ff4f69;
-    box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 1);
+    border-top: 2px solid rgb(5, 153, 0);
+    border-bottom: 2px solid ;
+    box-shadow: 0px 0px 10px 0px rgb(5, 153, 0);
     transform: scale(1.025);
     z-index: 2;
   
@@ -459,7 +459,7 @@ footer{
     }  
   
     & .button {
-      background-color: rgb(238,122,54);
+      background-color: rgb(5, 153, 0);
       @include filter-gradient(#ee7a36, #eb495d, horizontal);
       @include background-image(linear-gradient(left,  rgba(238,122,54,1) 0%,rgba(235,73,93,1) 100%));    
     }
@@ -484,7 +484,7 @@ footer{
     margin:0 0 1.5em
   }
   ul {
-    color: #796583;
+    color: rgb(5, 153, 0);
     font-size: 0.75em;
     list-style-type: none;
     padding: 0;
